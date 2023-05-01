@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "Lucas Marshall",
+      "email": "lucas.marshall@example.com",
+      "address": {
+        "street": "5545 Pleasant Hill Road",
+        "city": "Charlotte",
+        "state": "NC",
+        "zipcode": "28202"
+      },
+      "phone": "(704) 555-1234"
+    },
+    {
+      "name": "Mia Hernandez",
+      "email": "mia.hernandez@example.com",
+      "address": {
+        "street": "3419 Reel Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90017"
+      },
+      "phone": "(213) 555-5678"
+    },
+    {
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "address": {
+        "street": "1673 Upton Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10013"
+      },
+      "phone": "(212) 555-9012"
+    }
+  ]
+}
