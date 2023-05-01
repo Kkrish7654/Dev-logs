@@ -38,8 +38,6 @@ const TeamMember = styled.li`
 const AboutPage: React.FC = () => {
   const company = "Dev-logs";
   const yearFounded = 2021;
-  const description =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis eget tortor vel efficitur.";
 
   return (
     <AboutPageContainer>

@@ -5,7 +5,6 @@ import {faker} from "@faker-js/faker" // Changed import to use the default expor
 import Navbar from "./components/Header";
 import "./App.css";
 import AboutPage from "./components/About";
-import { act } from "react-dom/test-utils";
 import Footer from "./components/Footer";
 import ContactPage from "./components/Contact";
 
@@ -24,7 +23,6 @@ interface UserProps {
 }
 
 interface DetailedUserProps {
-  userId: string;
   usersData: Users[];
 }
 
@@ -68,7 +66,7 @@ const App = (): JSX.Element => {
     );
   };
 
-  const DetailedUser = ({ userId, usersData }: DetailedUserProps) => {
+  const DetailedUser = ({ usersData }: DetailedUserProps) => {
 		  const { id } = useParams<{ id: string }>();
   console.log(id); // check the value of id
 	console.log(usersData); // check the value of usersData
